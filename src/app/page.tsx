@@ -1,8 +1,7 @@
 import { Button } from "@/components/ui/button";
+import { redirect } from "next/navigation";
 
 
 export default async function Home() {
-  return (
-    <Button>Click me</Button>
-  )
+  return redirect('/dashboard')
 }
